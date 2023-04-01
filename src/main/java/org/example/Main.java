@@ -17,7 +17,7 @@ public class Main {
                 }
             }
 
-            // Validar si los números son iguales
+            // Validar si los números son iguales para asi saber si la cara es correcta o no
             int numero = matriz[0][0];
             for (int i = 0; i < matriz.length; i++) {
                 for (int j = 0; j < matriz[0].length; j++) {
@@ -28,7 +28,7 @@ public class Main {
                 }
             }
 
-            // Mostrar la matriz ordenada si los números son iguales
+            // Aqui se muestra la matriz en dado caso que sean iguales los numeros
             if (iguales) {
                 System.out.println("Si esta armado correctamente, los numeros son:");
                 for (int i = 0; i < matriz.length; i++) {
